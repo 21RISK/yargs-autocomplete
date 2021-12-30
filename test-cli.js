@@ -1,4 +1,5 @@
-#!/usr/bin/env node --experimental-specifier-resolution=node
+#!/usr/bin/env node
+
 import yargs from 'yargs'
 import { hideBin } from 'yargs/helpers'
 import { someOtherModule } from './some-other-module';
@@ -15,4 +16,5 @@ yargs(hideBin(process.argv))
   .demandCommand(1)
   .help()
   .completion()
+  .scriptName('eddy')
   .parse()
