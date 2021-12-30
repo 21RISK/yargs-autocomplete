@@ -1,6 +1,9 @@
-#!/usr/bin/env node
+#!/usr/bin/env node --experimental-specifier-resolution=node
 import yargs from 'yargs'
 import { hideBin } from 'yargs/helpers'
+import { someOtherModule } from './some-other-module';
+
+someOtherModule();
 
 yargs(hideBin(process.argv))
   .command('curl <url>', 'fetch the contents of the URL', () => {}, (argv) => {
