@@ -5,6 +5,6 @@
     "yargs": "^17.3.1"
   },
   "bin": {
-    "eddy": "./test-cli.js"
+    "eddy": "./text-cli.sh"
   }
 }
