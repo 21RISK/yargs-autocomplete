@@ -13,15 +13,3 @@ yargs(hideBin(process.argv))
   .help()
   .completion()
   .parse()
-
-
-  /*
-
-
-
-// #!/usr/bin/env node
-
-//#!/usr/bin/env node --experimental-specifier-resolution=node
-//#!/usr/local/share/nvm/versions/node/v16.13.1/bin/node --experimental-specifier-resolution=node
-
-  */
